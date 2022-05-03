@@ -35,10 +35,10 @@ val provider = GoogleFont.Provider(
 )
 
 @OptIn(ExperimentalTextApi::class)
-val MontserratFont = GoogleFont("Montserrat")
+val MontserratFont = GoogleFont(name = "Montserrat")
 
 @OptIn(ExperimentalTextApi::class)
-val KarlaFont = GoogleFont("Karla")
+val KarlaFont = GoogleFont(name = "Karla")
 
 @OptIn(ExperimentalTextApi::class)
 val MontserratFontFamily = FontFamily(
